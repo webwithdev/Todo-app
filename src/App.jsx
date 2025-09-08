@@ -72,9 +72,9 @@ function App() {
             <div className='text-xl w-[45%] font-medium text-amber-950'><h2 className='todoname mx-2'>{item.text}</h2></div>
             <div className="btn flex gap-1 pr-2">
 
-              <button onClick={() => handleEdit(item.id)} className='bg-orange-700 text-gray-800 font-medium px-2.5 py-1 rounded border border-orange-300 hover:bg-orange-300 transition duration-150 h-10 '><img className="w-5 h-5 filter invert opacity-80 max-sm:w-8 max-sm:h-8 " src="src/assets/edit.svg" alt="Edit" />
+              <button onClick={() => handleEdit(item.id)} className='bg-orange-700 text-gray-800 font-medium px-2.5 py-1 rounded border border-orange-300 hover:bg-orange-300 transition duration-150 h-10 '><img className="w-5 h-5 filter invert opacity-80 max-sm:w-8 max-sm:h-8 " src="   https://cdn-icons-png.flaticon.com/512/3405/3405244.png " alt="Edit" />
               </button>
-              <button onClick={() => handleDelete(item.id)} className='bg-orange-700 text-gray-800 font-medium px-2.5 py-1 rounded border border-orange-300 hover:bg-orange-300 transition duration-150'><img className='w-5 h-5 filter invert opacity-80 max-sm:w-8 max-sm:h-8' src="src\assets\delete.svg" alt="" /></button>
+              <button onClick={() => handleDelete(item.id)} className='bg-orange-700 text-gray-800 font-medium px-2.5 py-1 rounded border border-orange-300 hover:bg-orange-300 transition duration-150'><img className='w-5 h-5 filter invert opacity-80 max-sm:w-8 max-sm:h-8' src="   https://cdn-icons-png.flaticon.com/512/1828/1828911.png " alt="" /></button>
             </div>
           </div>
         })}
